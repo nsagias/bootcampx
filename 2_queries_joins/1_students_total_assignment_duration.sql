@@ -2,7 +2,7 @@
 
 
 SELECT 
-  sum(assignment_submissions.duration)
+  sum(assignment_submissions.duration) as total_duration
 FROM 
   students
 JOIN 
