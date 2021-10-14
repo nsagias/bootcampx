@@ -1,6 +1,5 @@
 -- \i migrations/assignments_submissions.sql
--- \i seeds/assignments_seeds.sql
--- \i seeds/assignment_submissions_seeds.sql
+
 CREATE TABLE assignments (
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255),
